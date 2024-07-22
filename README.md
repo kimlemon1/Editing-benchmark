@@ -60,7 +60,14 @@
   - Indoor : dining room, classroom, office, night, snowing, raining
 
 
-## 논문 조사 및 만들면서 생각한 이후 해결해야하는 문제점들
+## 이후 해결해야하는 문제점들
+### Baseline 문제점
+- Finetuning 모델과 zeroshot 모델을 구분 없이 비교함. Consistency는 finetuning 모델이 당연히 더 높을 것
+- T2I editing model의 input prompt 형태가 모델마다 크게 다르다
+  - 명령 형태, 원본 prompt가 필요한 형태, V*와 같은 토큰이 필요한 fine tuning 형태 등등
+- Position editing, Background editing 모든 t2i 모델이 못한다
+-  물체간 상대적인 위치 일반 생성 모델이 이해 잘 못한다(referring image segmenatation task 따로 존재)
+-  해당 editing task에 대해 성능 평가 자체가 불가능할 것, 위치 관련 task를 제거할지, 다른 방법(mask 등으로 위치 정보 추가 제공)쓸지 생각 필요 
 
 
 
