@@ -1,0 +1,2082 @@
+{
+    "person": {
+        "object-addition": {
+            "to": ["bicycle", "car", "backpack"]
+        },
+        "object-replacement": {
+            "to": ["person"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["anime", "gender", "race"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "bicycle": {
+        "object-addition": {
+            "to": ["basket", "bell", "lamp"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "car": {
+        "object-addition": {
+            "to": ["bicycle", "motorcycle", "bus"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "motorcycle": {
+        "object-addition": {
+            "to": ["helmet", "mirror"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "airplane": {
+        "object-addition": {
+            "to": ["wing", "engine"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "bus": {
+        "object-addition": {
+            "to": ["wheel", "mirror"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "train": {
+        "object-addition": {
+            "to": ["carriage", "track"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "truck": {
+        "object-addition": {
+            "to": ["trailer", "cargo"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "boat": {
+        "object-addition": {
+            "to": ["sail", "anchor"]
+        },
+        "object-replacement": {
+            "to": ["vehicle"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "traffic light": {
+        "object-addition": {
+            "to": ["sign", "light"]
+        },
+        "object-replacement": {
+            "to": ["outdoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "vintage"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "fire hydrant": {
+        "object-addition": {
+            "to": ["hose", "sign"]
+        },
+        "object-replacement": {
+            "to": ["outdoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "vintage"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "stop sign": {
+        "object-addition": {
+            "to": ["traffic light", "sign"]
+        },
+        "object-replacement": {
+            "to": ["outdoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "vintage"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "parking meter": {
+        "object-addition": {
+            "to": ["sign", "pole"]
+        },
+        "object-replacement": {
+            "to": ["outdoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "vintage"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "bench": {
+        "object-addition": {
+            "to": ["bag", "cup", "ball", "books", "shoes"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "bird": {
+        "object-addition": {
+            "to": ["nest", "branch"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "cat": {
+        "object-addition": {
+            "to": ["collar", "toy"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "dog": {
+        "object-addition": {
+            "to": ["collar", "leash"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "horse": {
+        "object-addition": {
+            "to": ["saddle", "bridle"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "sheep": {
+        "object-addition": {
+            "to": ["grass", "fence"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "cow": {
+        "object-addition": {
+            "to": ["grass", "fence"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "elephant": {
+        "object-addition": {
+            "to": ["grass", "tree"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "bear": {
+        "object-addition": {
+            "to": ["tree", "fish"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "zebra": {
+        "object-addition": {
+            "to": ["grass", "tree"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "giraffe": {
+        "object-addition": {
+            "to": ["tree", "grass"]
+        },
+        "object-replacement": {
+            "to": ["animal"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "backpack": {
+        "object-addition": {
+            "to": ["patch", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["accessory"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "umbrella": {
+        "object-addition": {
+            "to": ["handle", "case"]
+        },
+        "object-replacement": {
+            "to": ["accessory"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "handbag": {
+        "object-addition": {
+            "to": ["handle", "strap"]
+        },
+        "object-replacement": {
+            "to": ["accessory"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "tie": {
+        "object-addition": {
+            "to": ["knot", "clip"]
+        },
+        "object-replacement": {
+            "to": ["accessory"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "suitcase": {
+        "object-addition": {
+            "to": ["sticker", "tag"]
+        },
+        "object-replacement": {
+            "to": ["accessory"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "frisbee": {
+        "object-addition": {
+            "to": ["logo", "pattern"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "skis": {
+        "object-addition": {
+            "to": ["pole", "boot"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "snowboard": {
+        "object-addition": {
+            "to": ["boot", "goggles"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "sports ball": {
+        "object-addition": {
+            "to": ["logo", "pattern"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "kite": {
+        "object-addition": {
+            "to": ["tail", "string"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "baseball bat": {
+        "object-addition": {
+            "to": ["glove", "ball"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "baseball glove": {
+        "object-addition": {
+            "to": ["bat", "ball"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "skateboard": {
+        "object-addition": {
+            "to": ["helmet", "wheels"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "surfboard": {
+        "object-addition": {
+            "to": ["leash", "wetsuit"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "tennis racket": {
+        "object-addition": {
+            "to": ["ball", "grip"]
+        },
+        "object-replacement": {
+            "to": ["sports"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "night", "snowing", "raining"]
+        }
+    },
+    "bottle": {
+        "object-addition": {
+            "to": ["label", "cap"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "wine glass": {
+        "object-addition": {
+            "to": ["bottle", "liquid"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "cup": {
+        "object-addition": {
+            "to": ["spoon", "fork", "knife"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "fork": {
+        "object-addition": {
+            "to": ["spoon", "knife"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "knife": {
+        "object-addition": {
+            "to": ["fork", "spoon"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "spoon": {
+        "object-addition": {
+            "to": ["fork", "knife"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "bowl": {
+        "object-addition": {
+            "to": ["spoon", "fork"]
+        },
+        "object-replacement": {
+            "to": ["kitchen"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "vintage", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "banana": {
+        "object-addition": {
+            "to": ["sticker", "slice"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "apple": {
+        "object-addition": {
+            "to": ["leaf", "slice"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "sandwich": {
+        "object-addition": {
+            "to": ["lettuce", "tomato"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "orange": {
+        "object-addition": {
+            "to": ["slice", "peel"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "broccoli": {
+        "object-addition": {
+            "to": ["leaf", "stem"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "carrot": {
+        "object-addition": {
+            "to": ["leaf", "slice"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "hot dog": {
+        "object-addition": {
+            "to": ["ketchup", "mustard"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "pizza": {
+        "object-addition": {
+            "to": ["pepperoni", "mushroom"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "donut": {
+        "object-addition": {
+            "to": ["sprinkles", "glaze"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "cake": {
+        "object-addition": {
+            "to": ["candle", "frosting"]
+        },
+        "object-replacement": {
+            "to": ["food"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "fresh", "frozen", "burned"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["desert", "forest", "mountain", "dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "chair": {
+        "object-addition": {
+            "to": ["cushion", "cover"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "couch": {
+        "object-addition": {
+            "to": ["pillow", "blanket"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "potted plant": {
+        "object-addition": {
+            "to": ["pot", "soil"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "bed": {
+        "object-addition": {
+            "to": ["pillow", "blanket"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "dining table": {
+        "object-addition": {
+            "to": ["chair", "cloth"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "toilet": {
+        "object-addition": {
+            "to": ["seat cover", "paper"]
+        },
+        "object-replacement": {
+            "to": ["furniture"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["old", "new", "color"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "tv": {
+        "object-addition": {
+            "to": ["remote", "stand"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "laptop": {
+        "object-addition": {
+            "to": ["sticker", "cover"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "mouse": {
+        "object-addition": {
+            "to": ["pad", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "remote": {
+        "object-addition": {
+            "to": ["sticker", "cover"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "keyboard": {
+        "object-addition": {
+            "to": ["sticker", "cover"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "cell phone": {
+        "object-addition": {
+            "to": ["sticker", "case"]
+        },
+        "object-replacement": {
+            "to": ["electronic"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "microwave": {
+        "object-addition": {
+            "to": ["plate", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["appliance"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "oven": {
+        "object-addition": {
+            "to": ["sticker", "tray"]
+        },
+        "object-replacement": {
+            "to": ["appliance"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "toaster": {
+        "object-addition": {
+            "to": ["toast", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["appliance"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "sink": {
+        "object-addition": {
+            "to": ["tap", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["appliance"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "refrigerator": {
+        "object-addition": {
+            "to": ["sticker", "magnet"]
+        },
+        "object-replacement": {
+            "to": ["appliance"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "book": {
+        "object-addition": {
+            "to": ["bookmark", "cover"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "clock": {
+        "object-addition": {
+            "to": ["hands", "frame"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "vase": {
+        "object-addition": {
+            "to": ["flower", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "scissors": {
+        "object-addition": {
+            "to": ["cover", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "teddy bear": {
+        "object-addition": {
+            "to": ["hat", "scarf"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "hair drier": {
+        "object-addition": {
+            "to": ["nozzle", "sticker"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    },
+    "toothbrush": {
+        "object-addition": {
+            "to": ["cover", "toothpaste"]
+        },
+        "object-replacement": {
+            "to": ["indoor"]
+        },
+        "size-editing": {
+            "to": ["small", "medium", "large"]
+        },
+        "positional-editing": {
+            "to": ["left", "right", "up", "down"]
+        },
+        "object-style-transfer": {
+            "to": ["color", "old", "new"]
+        },
+        "texture-editing": {
+            "to": ["grainy", "smooth", "canvas", "paper"]
+        },
+        "image style transfer": {
+            "to": ["high contrast", "Van Gogh", "Monet", "Picasso", "Renaissance", "Pop Art"]
+        },
+        "background-editing": {
+            "to": ["dining room", "classroom", "office", "night", "snowing", "raining"]
+        }
+    }
+}

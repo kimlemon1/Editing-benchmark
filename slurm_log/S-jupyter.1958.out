@@ -1,0 +1,26 @@
+[I 2024-07-16 16:04:31.699 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-07-16 16:04:31.703 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-07-16 16:04:31.707 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-07-16 16:04:31.709 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-16 16:04:31.712 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2024-07-16 16:04:31.712 ServerApp] notebook | extension was successfully linked.
+[I 2024-07-16 16:04:31.993 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-07-16 16:04:32.035 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-07-16 16:04:32.037 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-07-16 16:04:32.038 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-07-16 16:04:32.042 LabApp] JupyterLab extension loaded from /home/kihyun/.conda/envs/ldm/lib/python3.8/site-packages/jupyterlab
+[I 2024-07-16 16:04:32.042 LabApp] JupyterLab application directory is /data/conda_envs/kihyun/envs/ldm/share/jupyter/lab
+[I 2024-07-16 16:04:32.042 LabApp] Extension Manager is 'pypi'.
+[I 2024-07-16 16:04:32.052 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-07-16 16:04:32.056 ServerApp] notebook | extension was successfully loaded.
+[I 2024-07-16 16:04:32.056 ServerApp] Serving notebooks from local directory: /data/projects/kihyun/Benchmark
+[I 2024-07-16 16:04:32.056 ServerApp] Jupyter Server 2.14.0 is running at:
+[I 2024-07-16 16:04:32.056 ServerApp] http://localhost:5477/tree
+[I 2024-07-16 16:04:32.056 ServerApp]     http://127.0.0.1:5477/tree
+[I 2024-07-16 16:04:32.056 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-07-16 16:04:32.111 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-node04: error: *** JOB 1958 ON node04 CANCELLED AT 2024-07-16T16:09:44 ***
+slurmstepd-node04: error: *** STEP 1958.0 ON node04 CANCELLED AT 2024-07-16T16:09:44 ***
+[C 2024-07-16 16:09:44.876 ServerApp] received signal 15, stopping
+[I 2024-07-16 16:09:44.878 ServerApp] Shutting down 5 extensions

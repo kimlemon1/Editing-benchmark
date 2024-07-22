@@ -1,0 +1,51 @@
+[I 2024-07-16 16:12:01.684 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-07-16 16:12:01.688 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-07-16 16:12:01.693 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-07-16 16:12:01.695 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-16 16:12:01.698 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2024-07-16 16:12:01.698 ServerApp] notebook | extension was successfully linked.
+[I 2024-07-16 16:12:01.972 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-07-16 16:12:02.013 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-07-16 16:12:02.015 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-07-16 16:12:02.016 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-07-16 16:12:02.020 LabApp] JupyterLab extension loaded from /home/kihyun/.conda/envs/ldm/lib/python3.8/site-packages/jupyterlab
+[I 2024-07-16 16:12:02.020 LabApp] JupyterLab application directory is /data/conda_envs/kihyun/envs/ldm/share/jupyter/lab
+[I 2024-07-16 16:12:02.020 LabApp] Extension Manager is 'pypi'.
+[I 2024-07-16 16:12:02.030 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-07-16 16:12:02.033 ServerApp] notebook | extension was successfully loaded.
+[I 2024-07-16 16:12:02.033 ServerApp] Serving notebooks from local directory: /data/projects/kihyun/Benchmark
+[I 2024-07-16 16:12:02.033 ServerApp] Jupyter Server 2.14.0 is running at:
+[I 2024-07-16 16:12:02.033 ServerApp] http://localhost:5477/tree
+[I 2024-07-16 16:12:02.033 ServerApp]     http://127.0.0.1:5477/tree
+[I 2024-07-16 16:12:02.033 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-07-16 16:12:02.089 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-07-16 16:13:14.768 ServerApp] 404 GET /hub/api (@::1) 160.68ms referer=None
+[I 2024-07-16 16:13:14.773 JupyterNotebookApp] 302 GET /tree? (@::1) 0.54ms
+[I 2024-07-16 16:13:16.843 ServerApp] User c8176c21cded42479f4e8b902ad3677c logged in.
+[I 2024-07-16 16:13:16.843 ServerApp] 302 POST /login? (c8176c21cded42479f4e8b902ad3677c@::1) 55.42ms
+[W 2024-07-16 16:13:23.915 ServerApp] 404 GET /hub/api (@::1) 1.63ms referer=None
+[W 2024-07-16 16:13:23.947 ServerApp] 404 GET /hub/api (@::1) 0.90ms referer=None
+[W 2024-07-16 16:14:50.417 ServerApp] 404 GET /hub/api (@::1) 2.01ms referer=None
+[I 2024-07-16 16:14:50.503 ServerApp] Kernel started: 22714089-fa2a-4c6e-b8a1-7744f02c89fb
+[I 2024-07-16 16:14:51.249 ServerApp] Connecting to kernel 22714089-fa2a-4c6e-b8a1-7744f02c89fb.
+[I 2024-07-16 16:44:10.331 ServerApp] Starting buffering for 22714089-fa2a-4c6e-b8a1-7744f02c89fb:d996de1a-36a0-4190-9dd9-a653a91b4a71
+[W 2024-07-16 16:44:30.507 ServerApp] 404 GET /hub/api (@::1) 2.50ms referer=None
+[I 2024-07-16 16:44:30.557 ServerApp] Kernel started: 26a24aa3-44f2-4b88-9dc0-5561dbd12c81
+[I 2024-07-16 16:44:31.173 ServerApp] Connecting to kernel 26a24aa3-44f2-4b88-9dc0-5561dbd12c81.
+[W 2024-07-16 16:44:33.833 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@::1) 1.28ms referer=None
+[W 2024-07-16 16:48:05.516 ServerApp] 404 GET /hub/api (@::1) 1.79ms referer=None
+[I 2024-07-16 16:48:05.538 ServerApp] Connecting to kernel 22714089-fa2a-4c6e-b8a1-7744f02c89fb.
+[W 2024-07-16 16:48:06.255 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@::1) 1.14ms referer=None
+[I 2024-07-16 16:53:03.015 ServerApp] Starting buffering for 26a24aa3-44f2-4b88-9dc0-5561dbd12c81:da01f19c-9209-44c8-8298-ab2b1f6e8afa
+[W 2024-07-16 16:59:14.605 ServerApp] 404 GET /hub/api (@::1) 1.78ms referer=None
+[I 2024-07-16 16:59:14.651 ServerApp] Kernel started: 2d70f086-56ca-4993-a605-d20219020e6c
+[I 2024-07-16 16:59:15.283 ServerApp] Connecting to kernel 2d70f086-56ca-4993-a605-d20219020e6c.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-node04: error: *** STEP 1961.0 ON node04 CANCELLED AT 2024-07-16T17:14:58 ***
+slurmstepd-node04: error: *** JOB 1961 ON node04 CANCELLED AT 2024-07-16T17:14:58 ***
+[C 2024-07-16 17:14:58.172 ServerApp] received signal 15, stopping
+[I 2024-07-16 17:14:58.176 ServerApp] Shutting down 5 extensions
+[I 2024-07-16 17:14:58.177 ServerApp] Shutting down 3 kernels
+[I 2024-07-16 17:14:58.177 ServerApp] Kernel shutdown: 22714089-fa2a-4c6e-b8a1-7744f02c89fb
+[I 2024-07-16 17:14:58.178 ServerApp] Kernel shutdown: 26a24aa3-44f2-4b88-9dc0-5561dbd12c81
+[I 2024-07-16 17:14:58.178 ServerApp] Kernel shutdown: 2d70f086-56ca-4993-a605-d20219020e6c
