@@ -1,10 +1,10 @@
 # Editing-benchmark
 
 ## 현재 아이디어
-- Baseline paper "Editbench"를 개선하기
--- Dataset 개수 1만개로 증가
--- 평가 자동화 pipeline 완성(image가 들어가면 editing, 이후 평가까지 자동화)
--- auto pipeline eval metric 개선
+- Baseline paper "Editbench"를 개선하기 \
+-- Dataset 개수 1만개로 증가 \
+-- 평가 자동화 pipeline 완성(image가 들어가면 editing, 이후 평가까지 자동화) \
+-- auto pipeline eval metric 개선 \\
 
 ## Editing task 자동화
 ### check_img_mask_prompt.ipynb
