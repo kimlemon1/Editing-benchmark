@@ -27,19 +27,18 @@
   - left, right, up, down
 5. Object style editing : 해당 오브잭트의 스타일 변경, superclass마다 다른 스타일 적용 필요
   - color, old, new
-  - Unique editing for superclass
-    -- person : anime, gender, race \
-    -- vehicle : vintage \
-    -- furniture : \
-    -- outdoor : \
-    -- Animal : \
-    -- Accessory : Vintage \
-    -- Sports : Vintage \
-    -- Kitchen : Vintage \
-    -- Food : Fresh, Frozen, Burned \
-    -- Electronics : \
-    -- Appliance : \
-    -- Indoor : \
+  - person : anime, gender, race
+  - vehicle : vintage
+  - furniture :
+  - outdoor :
+  - Animal :
+  - Accessory : Vintage
+  - Sports : Vintage
+  - Kitchen : Vintage
+  - Food : Fresh, Frozen, Burned
+  - Electronics :
+  - Appliance :
+  - Indoor : 
     
 ### Image editing
 1. Texture editing : 이미지 전체 질감 
