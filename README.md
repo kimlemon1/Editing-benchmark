@@ -1,8 +1,21 @@
 # Editing-benchmark
 
-## check_img_mask_prompt.ipynb를 사용하면 원하는 object class에 해당하는 이미지와 대응되는 editing prompt를 다운받을 수 있다.
+## 현재 아이디어
+- Baseline paper "Editbench"를 개선하기
+-- Dataset 개수 1만개로 증가
+-- 평가 자동화 pipeline 완성(image가 들어가면 editing, 이후 평가까지 자동화)
+-- auto pipeline eval metric 개선
+
+## Editing task 자동화
+### check_img_mask_prompt.ipynb
+- 사용하면 원하는 object class에 해당하는 이미지와 대응되는 editing prompt를 다운받을 수 있다.
+- 현재 "categoty_test/person_dog_cat이 예시 파일
+-- Editing prompt가 이미지에 적합한(편집이 타당한지)지 확인 필요
+-- 일일히 이미지와 prompt 비교는 불가능, 다른 아이디어 필요
 
 ## Editing task
+더 다양한 task 정리 필요
+
 ### Object editing
 1. Object addition : 이미지에 오브잭트 추가
   - add similar object 
@@ -28,7 +41,6 @@
     -- Appliance :
     -- Indoor :
     
-    
 ### Image editing
 1. Texture editing : 이미지 전체 질감 
   - Grainy, Smooth, Canvas, Paper
@@ -47,3 +59,9 @@
   - Electronic : dining room, classroom, office, night, snowing, raining
   - Appliance : dining room, classroom, office, night, snowing, raining
   - Indoor : dining room, classroom, office, night, snowing, raining
+
+
+## 논문 조사 및 만들면서 생각한 이후 해결해야하는 문제점들
+
+
+
