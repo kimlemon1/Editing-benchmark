@@ -70,4 +70,5 @@
 -  해당 editing task에 대해 성능 평가 자체가 불가능할 것, 위치 관련 task를 제거할지, 다른 방법(mask 등으로 위치 정보 추가 제공)쓸지 생각 필요 
 
 
-
+# Git 여러명이서 사용하는 방법
+https://velog.io/@debut12/Github-%EC%97%AC%EB%9F%AC-%EB%AA%85%EA%B3%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B3%B5%EC%9C%A0%ED%95%98%EA%B8%B0
