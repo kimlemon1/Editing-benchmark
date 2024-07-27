@@ -1,0 +1,37 @@
+[I 2024-07-26 17:18:52.421 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-07-26 17:18:52.424 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-07-26 17:18:52.428 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-07-26 17:18:52.431 ServerApp] notebook | extension was successfully linked.
+[I 2024-07-26 17:18:52.682 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-07-26 17:18:52.725 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-07-26 17:18:52.726 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-07-26 17:18:52.727 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-07-26 17:18:52.730 LabApp] JupyterLab extension loaded from /data/conda_envs/eugene/envs/seg/lib/python3.8/site-packages/jupyterlab
+[I 2024-07-26 17:18:52.730 LabApp] JupyterLab application directory is /data/conda_envs/eugene/envs/seg/share/jupyter/lab
+[I 2024-07-26 17:18:52.731 LabApp] Extension Manager is 'pypi'.
+[I 2024-07-26 17:18:52.741 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-07-26 17:18:52.745 ServerApp] notebook | extension was successfully loaded.
+[I 2024-07-26 17:18:52.746 ServerApp] Serving notebooks from local directory: /data/projects/kihyun/Editing-benchmark
+[I 2024-07-26 17:18:52.746 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-07-26 17:18:52.746 ServerApp] http://localhost:27165/tree
+[I 2024-07-26 17:18:52.746 ServerApp]     http://127.0.0.1:27165/tree
+[I 2024-07-26 17:18:52.746 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-07-26 17:18:52.776 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-07-26 17:24:16.280 ServerApp] 404 GET /hub/api (@::1) 29.00ms referer=None
+[I 2024-07-26 17:24:16.285 JupyterNotebookApp] 302 GET /tree? (@::1) 0.35ms
+[I 2024-07-26 17:24:19.684 ServerApp] User e13df6bcd5de46d7aec586c29542e2a9 logged in.
+[I 2024-07-26 17:24:19.684 ServerApp] 302 POST /login? (e13df6bcd5de46d7aec586c29542e2a9@::1) 44.23ms
+[W 2024-07-26 17:24:27.474 ServerApp] 404 GET /hub/api (@::1) 1.03ms referer=None
+[W 2024-07-26 17:24:27.494 ServerApp] 404 GET /hub/api (@::1) 0.66ms referer=None
+[W 2024-07-26 17:24:37.127 ServerApp] 404 GET /hub/api (@::1) 0.89ms referer=None
+[I 2024-07-26 17:24:37.170 ServerApp] Kernel started: e8eebf21-f6e9-46fd-b70b-a60efe671fe2
+[I 2024-07-26 17:24:37.756 ServerApp] Connecting to kernel e8eebf21-f6e9-46fd-b70b-a60efe671fe2.
+[W 2024-07-26 17:24:38.430 ServerApp] 404 GET /nbextensions/jupyter-js-widgets/extension.js (@::1) 1.03ms referer=None
+[I 2024-07-26 18:30:56.600 ServerApp] Starting buffering for e8eebf21-f6e9-46fd-b70b-a60efe671fe2:c2de78b0-9068-4941-a499-94c184109334
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-node04: error: *** JOB 2834 ON node04 CANCELLED AT 2024-07-26T18:31:24 ***
+slurmstepd-node04: error: *** STEP 2834.0 ON node04 CANCELLED AT 2024-07-26T18:31:24 ***
+[C 2024-07-26 18:31:24.864 ServerApp] received signal 15, stopping
+[I 2024-07-26 18:31:24.865 ServerApp] Shutting down 5 extensions
+[I 2024-07-26 18:31:24.866 ServerApp] Shutting down 1 kernel
+[I 2024-07-26 18:31:24.866 ServerApp] Kernel shutdown: e8eebf21-f6e9-46fd-b70b-a60efe671fe2
