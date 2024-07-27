@@ -29,15 +29,15 @@
   - color, old, new
   - person : anime, gender, race
   - vehicle : vintage
-  - furniture :
-  - outdoor :
-  - Animal :
+  - furniture : 
+  - outdoor : 
+  - Animal : 
   - Accessory : Vintage
   - Sports : Vintage
   - Kitchen : Vintage
   - Food : Fresh, Frozen, Burned
-  - Electronics :
-  - Appliance :
+  - Electronics : 
+  - Appliance : 
   - Indoor : 
     
 ### Image editing
