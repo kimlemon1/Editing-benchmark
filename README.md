@@ -28,16 +28,16 @@
 5. Object style editing : 해당 오브잭트의 스타일 변경, superclass마다 다른 스타일 적용 필요
   - color, old, new
   - person : anime, gender, race
-  - vehicle : vintage
-  - furniture : 
-  - outdoor : 
-  - Animal : 
-  - Accessory : Vintage
-  - Sports : Vintage
-  - Kitchen : Vintage
+  - vehicle : vintage, *futuristic*
+  - furniture : *modern*, *classic*
+  - outdoor : *modern*
+  - Animal : *mythical*
+  - Accessory : Vintage, *luxury*
+  - Sports : Vintage, *child-friendly*
+  - Kitchen : Vintage, *modern*
   - Food : Fresh, Frozen, Burned
-  - Electronics : 
-  - Appliance : 
+  - Electronic : *futuristic*
+  - Appliance : *modern*
   - Indoor : 
     
 ### Image editing
