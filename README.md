@@ -36,8 +36,8 @@
   - Sports : Vintage, *child-friendly*
   - Kitchen : Vintage, *modern*
   - Food : Fresh, Frozen, Burned
-  - Electronic : *futuristic*
-  - Appliance : *modern*
+  - Electronic : *futuristic*, *plastic*
+  - Appliance : *modern*, *steel*, *plastic*
   - Indoor : 
     
 ### Image editing
