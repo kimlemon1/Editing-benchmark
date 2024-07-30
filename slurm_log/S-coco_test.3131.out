@@ -1,0 +1,21 @@
+[I 2024-07-30 14:45:31.192 ServerApp] Extension package jupyter_lsp took 0.3851s to import
+[I 2024-07-30 14:45:31.328 ServerApp] Extension package jupyter_server_terminals took 0.1350s to import
+[I 2024-07-30 14:45:32.872 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-07-30 14:45:32.878 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-07-30 14:45:32.884 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-07-30 14:45:32.889 ServerApp] notebook | extension was successfully linked.
+[I 2024-07-30 14:45:33.676 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-07-30 14:45:34.084 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-07-30 14:45:34.086 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-07-30 14:45:34.087 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-07-30 14:45:34.241 LabApp] JupyterLab extension loaded from /data/conda_envs/eugene/envs/seg/lib/python3.8/site-packages/jupyterlab
+[I 2024-07-30 14:45:34.242 LabApp] JupyterLab application directory is /data/conda_envs/eugene/envs/seg/share/jupyter/lab
+[I 2024-07-30 14:45:34.242 LabApp] Extension Manager is 'pypi'.
+[I 2024-07-30 14:45:34.256 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-07-30 14:45:34.261 ServerApp] notebook | extension was successfully loaded.
+[I 2024-07-30 14:45:34.261 ServerApp] Serving notebooks from local directory: /data/projects/eugene/Editing-benchmark
+[I 2024-07-30 14:45:34.261 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-07-30 14:45:34.261 ServerApp] http://localhost:27165/tree
+[I 2024-07-30 14:45:34.262 ServerApp]     http://127.0.0.1:27165/tree
+[I 2024-07-30 14:45:34.262 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-07-30 14:45:34.332 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
