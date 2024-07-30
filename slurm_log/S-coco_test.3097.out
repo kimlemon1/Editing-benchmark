@@ -1,0 +1,23 @@
+[I 2024-07-30 01:17:02.512 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-07-30 01:17:02.515 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-07-30 01:17:02.519 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-07-30 01:17:02.522 ServerApp] notebook | extension was successfully linked.
+[I 2024-07-30 01:17:02.788 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-07-30 01:17:02.833 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-07-30 01:17:02.835 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-07-30 01:17:02.836 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-07-30 01:17:02.839 LabApp] JupyterLab extension loaded from /data/conda_envs/eugene/envs/seg/lib/python3.8/site-packages/jupyterlab
+[I 2024-07-30 01:17:02.839 LabApp] JupyterLab application directory is /data/conda_envs/eugene/envs/seg/share/jupyter/lab
+[I 2024-07-30 01:17:02.840 LabApp] Extension Manager is 'pypi'.
+[I 2024-07-30 01:17:02.851 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-07-30 01:17:02.855 ServerApp] notebook | extension was successfully loaded.
+[I 2024-07-30 01:17:02.855 ServerApp] Serving notebooks from local directory: /data/projects/eugene/Editing-benchmark
+[I 2024-07-30 01:17:02.855 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2024-07-30 01:17:02.855 ServerApp] http://localhost:27165/tree
+[I 2024-07-30 01:17:02.855 ServerApp]     http://127.0.0.1:27165/tree
+[I 2024-07-30 01:17:02.855 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-07-30 01:17:02.889 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd-node04: error: *** STEP 3097.0 ON node04 CANCELLED AT 2024-07-30T01:41:28 ***
+slurmstepd-node04: error: *** JOB 3097 ON node04 CANCELLED AT 2024-07-30T01:41:28 ***
+[C 2024-07-30 01:41:28.113 ServerApp] received signal 15, stopping
